@@ -1,0 +1,67 @@
+/* =================================
+   Global Styles & Typography
+   ================================= */
+
+/* Think of this as setting the "theme" for the whole page */
+body {
+    background-color: #f0f8ff; /* A light alice blue background */
+    font-family: Arial, Helvetica, sans-serif; /* A clean, common font */
+    color: #333; /* A dark grey for all text by default */
+    line-height: 1.6;
+}
+
+/* A container to center our content and give it a max-width */
+.container {
+    width: 90%;
+    max-width: 800px; /* The content won't get wider than 800px */
+    margin: 40px auto; /* 40px top/bottom margin, and 'auto' left/right to center it */
+}
+
+h1, h2 {
+    color: #005a9c; /* A nice, darker blue for headings */
+}
+
+h1 {
+    text-align: center; /* Center the main title */
+}
+
+/* =================================
+   The Box Model Showcase (.card)
+   ================================= */
+
+/* Here is the core of the assignment, demonstrating the Box Model */
+.card {
+    background-color: #ffffff; /* White background to see the box clearly */
+    
+    /* 1. The Border: The "picture frame" around our content. */
+    border: 1px solid #dddddd;
+    border-radius: 8px; /* Slightly rounded corners look nicer */
+
+    /* 2. The Padding: "Breathing room" INSIDE the box, between the border and the content. */
+    padding: 20px;
+
+    /* 3. The Margin: "Personal space" OUTSIDE the box, pushing other elements away. */
+    margin-bottom: 30px; /* Adds space between the two cards */
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A subtle shadow to lift the card off the page */
+}
+
+
+
+/* =================================
+   Component Styling (Button)
+   ================================= */
+   
+button {
+    background-color: #007bff; /* A bright blue for the button */
+    color: white; /* White text on the button */
+    font-size: 16px;
+    border: none; /* Remove the default ugly border */
+    border-radius: 5px;
+    padding: 10px 20px; /* Padding makes the button bigger and easier to click */
+    cursor: pointer; /* Changes the mouse to a pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* A darker blue when you hover over it */
+}
